@@ -10,4 +10,4 @@ COPY files/httpd-vhosts.conf /usr/local/apache2/conf/extra/
 # Direcotry Permission
 RUN chmod 777 /logs  -R  
  
-EXPOSE 8080
+EXPOSE 8000
